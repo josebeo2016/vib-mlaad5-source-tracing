@@ -1,0 +1,26 @@
+model:
+  name: wav2vec2_vib_gelu
+  flag_fix_ssl: false
+  contra_mode: 'all' # 'one' or 'all'
+  loss_type: 1 
+  nclasses: 7 # 2 stage then 1st stage should set nclasses=2, acoustic=13, vocoder=7
+  xlsr: 
+    num_layers: null
+    order: 'first'
+    custom_order: null
+  is_freeze_frontend: false # false for stage 1, true for stage 2
+data:
+  name: ST_E2E # eval_only
+  kwargs:
+    spoof_category: 'vocoder'
+    mode: 'E2E' # E2E or 2stage
+    vocoders: []
+    augmentation_methods: ['RawBoost12']
+    num_additional_real: 3
+    num_additional_spoof: 3
+    trim_length: 96000 #6s for mlaad
+    wav_samp_rate: 16000
+    online_aug: true
+    aug_dir: './augmentation/'
+    noise_path: './musan'
+    rir_path: './RIRS_NOISES'

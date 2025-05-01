@@ -1,0 +1,13 @@
+vocoder2,train,dev,eval
+hifigan,5548,6296,15430
+encodec,893,2699,8691
+univnet,1946,300,4644
+fullband-melgan,299,299,597
+multi-melgan,299,0,899
+dac,0,300,598
+wavenext,0,0,298
+vocos,0,0,296
+melgan,300,300,0
+wavegrad,0,0,300
+bigvgan,0,0,297
+-,10300,10200,30896

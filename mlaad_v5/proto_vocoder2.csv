@@ -1,0 +1,17 @@
+vocoder2,train,dev,eval
+xtts_v2,2400,1799,3900
+vits,2394,3597,9582
+bark,300,2400,7800
+univnet,1946,300,4344
+hifigan,754,900,1948
+fullband-melgan,299,299,597
+multi-melgan,299,0,899
+encodec,593,299,891
+dac,0,300,598
+tortoise,0,0,300
+optispeech,0,0,298
+vocos,0,0,296
+melgan,300,300,0
+wavegrad,0,0,300
+bigvgan,0,0,297
+-,10300,10200,30896
