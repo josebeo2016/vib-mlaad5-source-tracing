@@ -1,5 +1,5 @@
 # VIB-based Real Pre-emphasis Audio Deepfake Source Tracing
-(Submitted to ISCA Interspeech 2025)
+(Accepted to ISCA Interspeech 2025)
 
 The rise of audio deepfakes presents significant challenges, necessitating effective detection and attribution mechanisms for fabricated speech. This paper addresses the need to identify not only fake speech but also its origins. We develop the audio deepfake source tracing method as follows: First, we establish a protocol using the MLAAD v5 dataset to analyze the acoustic and vocoder processing involved in generating fake speech. Second, we introduce a novel real pre-emphasis method based on the VIB architecture for audio deepfake source tracing. Our evaluation demonstrates that our model outperforms baseline systems, achieving enhancements of 10%. Our approach significantly improves model generalization and reduces complexity while preserving the real pre-emphasis effect established by the baseline.
 
